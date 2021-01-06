@@ -1,0 +1,962 @@
+Loaded user :)
+<!DOCTYPE html>
+<html class="en" lang="en" ng-app="app">
+ <head class="ng-non-bindable">
+  <meta charset="utf-8"/>
+  <title>
+   ArtStation - Aliya Chen
+  </title>
+  <meta content="visdev @ Netflix Animation" name="description"/>
+  <meta content="https://www.artstation.com/aliyachen" property="og:url"/>
+  <meta content="ArtStation" property="og:site_name"/>
+  <meta content="Aliya Chen" property="og:title"/>
+  <meta content="https://cdnb.artstation.com/p/assets/images/images/033/212/777/small/aliya-chen-five1.jpg?1608764117" property="og:image"/>
+  <meta content="visdev @ Netflix Animation" property="og:description"/>
+  <meta content="website" property="og:type"/>
+  <meta content="249255215230397" property="fb:app_id"/>
+  <meta content="@artstationhq" name="twitter:site"/>
+  <meta content="ArtStation" name="twitter:site_name"/>
+  <meta content="Aliya Chen" name="twitter:title"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="visdev @ Netflix Animation" name="twitter:description"/>
+  <meta content="https://cdnb.artstation.com/p/assets/images/images/033/212/777/small/aliya-chen-five1.jpg?1608764117" name="twitter:image"/>
+  <meta content="https://cdnb.artstation.com/p/assets/images/images/033/212/777/small/aliya-chen-five1.jpg?1608764117" name="image"/>
+  <meta content="index" name="robots"/>
+  <meta content="summary_large_image" name="og_twitter_card"/>
+  <meta content="IE=Edge,chrome=1" http-equiv="X-UA-Compatible"/>
+  <script>
+   window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"c7d2c3241e","applicationID":"136863096","transactionName":"e1sMQhQNXApWRBsTRF1GERkVCl8R","queueTime":0,"applicationTime":284,"agent":""}
+  </script>
+  <script>
+   (window.NREUM||(NREUM={})).loader_config={licenseKey:"c7d2c3241e",applicationID:"136863096"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);
+  </script>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="#000000" name="theme-color"/>
+  <meta content="#000000" name="msapplication-navbutton-color"/>
+  <meta content="#000000" name="apple-mobile-web-app-status-bar-style"/>
+  <meta content="authenticity_token" name="csrf-param"/>
+  <meta content="z5kfla5xRoxoZ0WX4Np4b0/F4/5z1KAkfwG++/X3zBVb3XWodwqE5lHm+xwcLywUvEIF2R194C475dsdbbzl0A==" name="csrf-token"/>
+  <link href="/assets/apple-touch-icon-72x72-precomposed-b4d2558acdb768af5216011542072635.png" rel="apple-touch-icon-precomposed" sizes="72x72" type="image/png"/>
+  <link href="/assets/apple-touch-icon-72x72-precomposed-b4d2558acdb768af5216011542072635.png" rel="apple-touch-icon-precomposed" type="image/png"/>
+  <link href="/assets/favicon-1f6ac315d6fdb583078f085998d317e3.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="https://www.artstation.com/aliyachen.rss" rel="alternate" title="Aliya Chen on ArtStation" type="application/rss+xml"/>
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700,800" media="all" rel="stylesheet"/>
+  <link href="//cdn.artstation.com" rel="preconnect"/>
+  <link href="/opensearch.xml" rel="search" title="ArtStation" type="application/opensearchdescription+xml"/>
+  <script>
+   (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-K7KHHZ8');
+  </script>
+  <link href="/assets/application-fe75ea2828a4dc03e675e3aae4b1289b.css" media="all" rel="stylesheet"/>
+  <script>
+   environment = "production";
+window.websocket_host = "https://ws.artstation.com";
+window.images_host = "images.artstation.com";
+  </script>
+  <script>
+   window.api                         = {};
+window.api.notifications           = {};
+window.api.messaging               = {};
+window.api.websockets              = {};
+window.api.notifications.enabled   = true;
+window.api.messaging.enabled       = true;
+window.api.websockets.enabled      = true;
+  </script>
+  <script>
+   window.user_id = null;
+window.user_show_adult = false;
+  </script>
+  <script>
+   window.currentUserData = {"csrf_token":"LFZPumjiIMFHA/N98XoFR9VDXROcC7/7zN3Vp+svj664EiWHsZniq36CTfYNj1E8JsS7NPKi//GIObBBc2Smaw==","beta_access":["Prints - Curated Page Moderation","Plus Release","Watch Later","Beta New User Domains","Video Clips","Learning Series","Learning Courses Sorting","Decouple User Domains","Learning","Verizon CDN","New User Domains","Verizon Theo Integration","Subscriptions v2"]};
+window.currentUserAuthorizations = {"users_admin":false,"user_following_create":false,"user_block_create":false,"projects_admin":false,"project_create":false,"project_like":false,"project_comment_create":false,"project_comment_like":false,"project_comment_reply":false,"project_edit_visibility":false,"projects_mark_editor_pick":false,"projects_mark_mature_content":false,"projects_mark_suppressed":false,"challenge_announcements_admin":false,"challenge_announcement_like":false,"challenge_announcement_comment_create":false,"challenge_announcement_comment_like":false,"submissions_admin":false,"submission_like":false,"submission_updates_admin":false,"submission_update_create":false,"submission_update_like":false,"submission_update_comment_create":false,"submission_update_comment_like":false,"blog_posts_admin":false,"blog_post_create":false,"blog_post_like":false,"blog_post_comment_create":false,"blog_post_comment_like":false,"messages_admin":false,"messages_view":false,"message_create":false,"current_user_profile_view":false,"current_user_profile_edit":false,"current_user_username_edit":false,"current_user_email_edit":false,"current_user_password_edit":false,"current_user_resume_settings":false,"current_user_social_settings":false,"current_user_hiring_settings":false,"current_user_notification_settings":false,"current_user_messaging_settings":false,"current_user_two_factor_auth_settings":false,"current_user_upload_pdf_resume":false,"notifications_admin":false,"notifications_view":false,"activity_admin":false,"activity_view":false,"collections_admin":false,"collections_view":false,"collection_create":false,"collection_project_add":false,"jobs_admin":false,"job_create":false,"products_admin":false,"product_create":false,"analytics_admin":false,"analytics_view":false,"pro_subscriptions_admin":false,"abuse_reports_admin":false,"abuse_report_create":false,"website_builder_customize_theme":false,"website_builder_publish_pro_theme":false,"website_builder_edit_pro_settings":false,"website_builder_create_page":false,"website_builder_password_protect_page":false,"albums_admin":false,"albums_view":false,"album_create":false,"album_project_add":false,"album_edit_visibility":false};
+  </script>
+  <script>
+   window.upload_config = {
+  maxImageSize: 10485760,
+  maxMarmosetFileSize: 15728640,
+  maxPdfFileSize: 20971520,
+  maxPanoFileSize: 10485760,
+  maxVideoClipFileSize: 26214400
+};
+  </script>
+  <script>
+   window.angular_debug_enabled = false;
+window.locale = "en";
+I18n = {}
+I18n.defaultLocale = "en";
+I18n.locale = "en";
+window.artstation_config = {
+  preloaded_feed_comments_count: 5,
+  preloaded_challenge_announcement_replies_count: 5
+};
+  </script>
+  <script src="https://js.stripe.com/v2/">
+  </script>
+  <script src="https://js.stripe.com/v3/">
+  </script>
+  <script>
+   Stripe.setPublishableKey('pk_live_xKKqbD2WFICHYKJpbif8OLKK');
+window.stripe = Stripe('pk_live_xKKqbD2WFICHYKJpbif8OLKK');
+  </script>
+  <script src="/assets/libs-2ea7c3c6f3e907b2fc1c94583f3f991d.js">
+  </script>
+  <script src="/assets/application-e9cf9a03c5886ca01ba3251d2c85dfe3.js">
+  </script>
+  <script src="/assets/community-e1e51eca2fb4e86badec176e3ab3c628.js">
+  </script>
+  <meta content="app-id=924645286" name="apple-itunes-app"/>
+  <meta content="app-id=com.ballistiq.artstation" name="google-play-app"/>
+  <base href="/"/>
+  <script>
+   (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-K7KHHZ8');
+  </script>
+ </head>
+ <body class="{{$root.bodyClass}} {{$root.additionalBodyClasses}}">
+  <noscript>
+   <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-K7KHHZ8" style="display:none;visibility:hidden" width="0">
+   </iframe>
+  </noscript>
+  <script type="text/javascript">
+   window.dataLayer = window.dataLayer || [];
+  gtag = function(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  </script>
+  <div id="fb-root">
+  </div>
+  <div id="top">
+  </div>
+  <div class="wrapper">
+   <div id="website_navigation_container">
+    <link href="/assets/layout/signed_out_index.38d371db7be43b92c376.css" id="layout_styles" rel="stylesheet"/>
+    <div id="main_nav_container">
+     <div class="bar-pro-increase active-version v1 js-discount-banner">
+      <a class="bar-pro-increase-link" data-js-href="discountPath" target="_self">
+       <span class="text" data-js-inner-html="discountText">
+        Marketplace Spring Fling Sale
+       </span>
+       <span class="button" data-js-inner-html="discountBtnText">
+        Shop Now
+       </span>
+      </a>
+      <div class="bar-pro-increase-close js-close-discount-bar far fa-lg fa-times">
+      </div>
+     </div>
+     <nav class="main-menu ng-non-bindable" id="main-nav" role="navigation">
+      <ul class="menu-level menu-level-1 bs-list-unstyled">
+       <li class="bs-d-sm-none">
+        <button class="collapsed main-menu-hamburger" data-target="#main-menu-nav" data-toggle="collapseMenu" type="button">
+         <div class="line">
+         </div>
+         <div class="line">
+         </div>
+         <div class="line">
+         </div>
+         <div class="line-fake">
+         </div>
+        </button>
+       </li>
+       <li class="main-menu-logo">
+        <a class="navigation-logo" href="/" target="_self">
+        </a>
+       </li>
+       <li class="main-menu-search bs-flex-grow-1 bs-d-none bs-d-sm-flex">
+        <form class="form bs-flex-grow-1 position-relative" role="search">
+         <i class="far fa-search main-menu-search-icon">
+         </i>
+         <input autocomplete="off" class="main-menu-search-input" id="search-input" name="search_query" placeholder="Search" type="search"/>
+        </form>
+       </li>
+       <li class="main-menu-bar-item bs-d-none bs-d-sm-flex">
+        <a class="main-menu-bar-link" data-cart-link="true" href="/marketplace/cart" target="_self">
+         <i class="far fa-shopping-cart fa-lg">
+         </i>
+         <span class="bs-badge badge-cart-items hidden" data-cart-counter="true">
+          0
+         </span>
+        </a>
+       </li>
+       <li class="main-menu-bar-item dropdown bs-d-none bs-d-sm-flex hidden js-currency-dropdown">
+        <button class="main-menu-bar-link dropdown-toggle" data-toggle="dropdownMenu" type="button">
+         <span class="js-current-currency">
+          USD, $
+         </span>
+         <i class="far fa-fw fa-chevron-down fa-pad-left animate animate-rotate">
+         </i>
+        </button>
+        <div class="main-menu-dropdown">
+         <ul class="bs-list-unstyled">
+          <li class="main-menu-dropdown-item">
+           <button class="main-menu-dropdown-link" data-js-set-currency="usd" type="button">
+            <span class="far fa-dollar-sign fa-pad-right-x2">
+            </span>
+            <span>
+             USD
+            </span>
+           </button>
+          </li>
+          <li class="main-menu-dropdown-item">
+           <button class="main-menu-dropdown-link" data-js-set-currency="cad" type="button">
+            <span class="far fa-dollar-sign fa-pad-right-x2">
+            </span>
+            <span>
+             CAD
+            </span>
+           </button>
+          </li>
+          <li class="main-menu-dropdown-item">
+           <button class="main-menu-dropdown-link" data-js-set-currency="eur" type="button">
+            <span class="far fa-euro-sign fa-pad-right-x2">
+            </span>
+            <span>
+             EUR
+            </span>
+           </button>
+          </li>
+          <li class="main-menu-dropdown-item">
+           <button class="main-menu-dropdown-link" data-js-set-currency="gbp" type="button">
+            <span class="far fa-pound-sign fa-pad-right-x2">
+            </span>
+            <span>
+             GBP
+            </span>
+           </button>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li class="main-menu-bar-item bs-d-none bs-d-sm-flex">
+        <a class="main-menu-bar-link" href="/registration/signup" target="_self">
+         <i class="far fa-pen-square fa-lg fa-pad-right">
+         </i>
+         <span>
+          Sign up
+         </span>
+        </a>
+       </li>
+       <li class="main-menu-bar-item">
+        <a class="main-menu-bar-link justify-content-end" data-open="modal" data-target="#login-modal" href="/users/sign_in" target="_self">
+         <span class="bs-btn bs-btn-primary">
+          <i class="far fa-sign-in text-white">
+          </i>
+          <span class="fa-pad-left">
+           Sign In
+          </span>
+         </span>
+        </a>
+       </li>
+       <li class="main-menu-bar-item dropdown bs-d-none bs-d-sm-flex">
+        <button class="main-menu-bar-link dropdown-toggle" data-toggle="dropdownMenu" type="button">
+         <i class="far fa-ellipsis-v fa-lg animate animate-scale">
+         </i>
+        </button>
+        <div class="main-menu-dropdown">
+         <ul class="bs-list-unstyled">
+          <li class="main-menu-dropdown-item">
+           <a class="main-menu-dropdown-link" href="/about" target="_self">
+            <i class="fab fa-artstation fa-fw fa-pad-right">
+            </i>
+            <span>
+             About ArtStation
+            </span>
+           </a>
+          </li>
+          <li class="main-menu-dropdown-item">
+           <a class="main-menu-dropdown-link" href="/about/company" target="_self">
+            <i class="far fa-building fa-fw fa-pad-right">
+            </i>
+            <span>
+             About Company
+            </span>
+           </a>
+          </li>
+          <li class="main-menu-dropdown-item">
+           <a class="main-menu-dropdown-link" href="/about/marketing-services" target="_self">
+            <i class="far fa-star fa-fw fa-pad-right">
+            </i>
+            <span>
+             Marketing Services
+            </span>
+           </a>
+          </li>
+          <li class="main-menu-dropdown-divider">
+          </li>
+          <li class="main-menu-dropdown-item">
+           <a class="main-menu-dropdown-link" href="https://help.artstation.com" target="_blank">
+            <i class="far fa-question fa-fw fa-pad-right">
+            </i>
+            <span>
+             Help
+            </span>
+           </a>
+          </li>
+          <li class="main-menu-dropdown-divider">
+          </li>
+          <li class="main-menu-dropdown-item">
+           <a class="main-menu-dropdown-link" href="https://mt.artstation.com/subscription/q8BISXhn" target="_blank">
+            <i class="far fa-envelope fa-fw fa-pad-right">
+            </i>
+            <span>
+             Newsletter
+            </span>
+           </a>
+          </li>
+          <li class="main-menu-dropdown-item">
+           <a class="main-menu-dropdown-link" href="https://www.facebook.com/artstationhq" target="_blank">
+            <i class="fab fa-facebook-f fa-fw fa-pad-right">
+            </i>
+            <span>
+             Facebook
+            </span>
+           </a>
+          </li>
+          <li class="main-menu-dropdown-item">
+           <a class="main-menu-dropdown-link" href="https://www.instagram.com/artstationhq" target="_blank">
+            <i class="fab fa-instagram fa-fw fa-pad-right">
+            </i>
+            <span>
+             Instagram
+            </span>
+           </a>
+          </li>
+          <li class="main-menu-dropdown-item">
+           <a class="main-menu-dropdown-link" href="https://twitter.com/ArtStationHQ" target="_blank">
+            <i class="fab fa-twitter fa-fw fa-pad-right">
+            </i>
+            <span>
+             Twitter
+            </span>
+           </a>
+          </li>
+          <li class="main-menu-dropdown-divider">
+          </li>
+          <li class="main-menu-dropdown-item">
+           <a class="main-menu-dropdown-link" href="/tos" target="_self">
+            <i class="far fa-gavel fa-fw fa-pad-right">
+            </i>
+            <span>
+             Terms of Service
+            </span>
+           </a>
+          </li>
+          <li class="main-menu-dropdown-item">
+           <a class="main-menu-dropdown-link" href="/privacy" target="_self">
+            <i class="far fa-lock fa-fw fa-pad-right">
+            </i>
+            <span>
+             Privacy Policy
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+      </ul>
+      <div class="menu-level-2-wrap menu-collapse" id="main-menu-nav">
+       <div class="main-dropdown-backdrop">
+       </div>
+       <div class="main-menu-sm-bar bs-d-flex bs-d-sm-none">
+        <a class="main-menu-mobile-button" href="/search" target="_self">
+         <i class="far fa-search fa-lg">
+         </i>
+        </a>
+        <a class="main-menu-mobile-button" data-cart-link="true" href="/marketplace/cart" target="_self">
+         <i class="far fa-shopping-cart fa-lg">
+         </i>
+         <span class="bs-badge badge-cart-items hidden" data-cart-counter="true">
+          0
+         </span>
+        </a>
+        <a class="main-menu-mobile-button signup text-uppercase font-weight-medium" href="/registration/signup" target="_self">
+         <i class="far fa-pen-square fa-lg fa-pad-right">
+         </i>
+         <span>
+          Sign up
+         </span>
+        </a>
+       </div>
+       <ul class="menu-level menu-level-2 ps-main-menu bs-list-unstyled">
+        <li class="main-menu-item">
+         <a class="main-menu-link" data-menu-group="about" href="/about" target="_self">
+          <i class="fab fa-artstation fa-fw fa-pad-right">
+          </i>
+          <span>
+           About
+          </span>
+         </a>
+        </li>
+        <li class="main-menu-item">
+         <a class="main-menu-link" data-menu-group="subscriptions" href="/subscribe" target="_self">
+          <i class="far fa-arrow-circle-up fa-fw fa-pad-right">
+          </i>
+          <span>
+           Subscriptions
+          </span>
+         </a>
+        </li>
+        <li class="main-menu-item">
+         <a class="main-menu-link" data-menu-group="learning" href="/learning" target="_self">
+          <i class="far fa-graduation-cap fa-fw fa-pad-right">
+          </i>
+          <span>
+           Learning
+          </span>
+         </a>
+        </li>
+        <li class="main-menu-item">
+         <a class="main-menu-link" data-menu-group="marketplace" href="/marketplace/game-dev" target="_self">
+          <i class="far fa-cube fa-fw fa-pad-right">
+          </i>
+          <span>
+           Marketplace
+          </span>
+          <span class="badge-new js-active-marketplace-sale hidden">
+           Sale
+          </span>
+         </a>
+        </li>
+        <li class="main-menu-item">
+         <a class="main-menu-link" data-menu-group="prints" href="/prints" target="_self">
+          <i class="far icomoon icon-prints fa-fw fa-pad-right">
+          </i>
+          <span>
+           Prints
+          </span>
+          <span class="badge-new js-active-prints-sale hidden">
+           Sale
+          </span>
+         </a>
+        </li>
+        <li class="main-menu-item">
+         <a class="main-menu-link" data-menu-group="jobs" href="/jobs" target="_self">
+          <i class="far fa-briefcase fa-fw fa-pad-right">
+          </i>
+          <span>
+           Jobs
+          </span>
+         </a>
+        </li>
+        <li class="main-menu-item">
+         <a class="main-menu-link" data-menu-group="blogs" href="/blogs" target="_self">
+          <i class="far fa-book fa-fw fa-pad-right">
+          </i>
+          <span>
+           Blogs
+          </span>
+         </a>
+        </li>
+        <li class="main-menu-item">
+         <a class="main-menu-link" data-menu-group="challenges" href="/contests" target="_self">
+          <i class="far fa-trophy fa-fw fa-pad-right">
+          </i>
+          <span>
+           Challenges
+          </span>
+         </a>
+        </li>
+        <li class="main-menu-item">
+         <a class="main-menu-link" href="https://magazine.artstation.com">
+          <i class="far fa-newspaper fa-fw fa-pad-right">
+          </i>
+          <span>
+           Magazine
+          </span>
+         </a>
+        </li>
+        <li class="main-menu-links-dropdown-toggle is-menu-compact">
+         <button class="main-menu-link main-menu-links-dropdown" type="button">
+          <span>
+           More
+          </span>
+          <i class="far fa-chevron-down fa-fw fa-pad-left">
+          </i>
+         </button>
+         <ul class="dropdown">
+          <li class="main-menu-item">
+           <a class="main-menu-link" href="https://www.artstationmedia.com">
+            <i class="far fa-books fa-fw fa-pad-right">
+            </i>
+            <span>
+             Books
+            </span>
+           </a>
+          </li>
+          <li class="main-menu-item">
+           <a class="main-menu-link" href="/podcast" target="_self">
+            <i class="far fa-microphone fa-fw fa-pad-right">
+            </i>
+            <span>
+             Podcast
+            </span>
+           </a>
+          </li>
+          <li class="main-menu-item">
+           <a class="main-menu-link" href="/guides" target="_self">
+            <i class="far fa-book-reader fa-fw fa-pad-right">
+            </i>
+            <span>
+             Guides
+            </span>
+           </a>
+          </li>
+         </ul>
+        </li>
+        <li class="main-menu-item is-menu-full">
+         <a class="main-menu-link" href="https://www.artstationmedia.com">
+          <i class="far fa-books fa-fw fa-pad-right">
+          </i>
+          <span>
+           Books
+          </span>
+         </a>
+        </li>
+        <li class="main-menu-item is-menu-full">
+         <a class="main-menu-link" data-menu-group="podcast" href="/podcast" target="_self">
+          <i class="far fa-microphone fa-fw fa-pad-right">
+          </i>
+          <span>
+           Podcast
+          </span>
+         </a>
+        </li>
+        <li class="main-menu-item is-menu-full">
+         <a class="main-menu-link" data-menu-group="guides" href="/guides" target="_self">
+          <i class="far fa-book-reader fa-fw fa-pad-right">
+          </i>
+          <span>
+           Guides
+          </span>
+         </a>
+        </li>
+        <li class="main-menu-item bs-d-sm-none dropdown dropdown-more">
+         <button class="main-menu-link dropdown-toggle" data-toggle="dropdownMenu" type="button">
+          <span>
+           More
+          </span>
+          <i class="far fa-chevron-down fa-fw fa-pad-left text-primary animate animate-rotate">
+          </i>
+         </button>
+         <div class="dropdown-more-list">
+          <ul class="bs-list-unstyled">
+           <li class="main-menu-dropdown-item">
+            <a class="main-menu-dropdown-link" href="/about" target="_self">
+             <i class="fab fa-artstation fa-fw fa-pad-right">
+             </i>
+             <span>
+              About ArtStation
+             </span>
+            </a>
+           </li>
+           <li class="main-menu-dropdown-item">
+            <a class="main-menu-dropdown-link" href="/about/company" target="_self">
+             <i class="far fa-building fa-fw fa-pad-right">
+             </i>
+             <span>
+              About Company
+             </span>
+            </a>
+           </li>
+           <li class="main-menu-dropdown-item">
+            <a class="main-menu-dropdown-link" href="/about/marketing-services" target="_self">
+             <i class="far fa-star fa-fw fa-pad-right">
+             </i>
+             <span>
+              Marketing Services
+             </span>
+            </a>
+           </li>
+           <li class="main-menu-dropdown-divider">
+           </li>
+           <li class="main-menu-dropdown-item">
+            <a class="main-menu-dropdown-link" href="https://help.artstation.com" target="_blank">
+             <i class="far fa-question fa-fw fa-pad-right">
+             </i>
+             <span>
+              Help
+             </span>
+            </a>
+           </li>
+           <li class="main-menu-dropdown-divider">
+           </li>
+           <li class="main-menu-dropdown-item">
+            <a class="main-menu-dropdown-link" href="https://mt.artstation.com/subscription/q8BISXhn" target="_blank">
+             <i class="far fa-envelope fa-fw fa-pad-right">
+             </i>
+             <span>
+              Newsletter
+             </span>
+            </a>
+           </li>
+           <li class="main-menu-dropdown-item">
+            <a class="main-menu-dropdown-link" href="https://www.facebook.com/artstationhq" target="_blank">
+             <i class="fab fa-facebook-f fa-fw fa-pad-right">
+             </i>
+             <span>
+              Facebook
+             </span>
+            </a>
+           </li>
+           <li class="main-menu-dropdown-item">
+            <a class="main-menu-dropdown-link" href="https://www.instagram.com/artstationhq" target="_blank">
+             <i class="fab fa-instagram fa-fw fa-pad-right">
+             </i>
+             <span>
+              Instagram
+             </span>
+            </a>
+           </li>
+           <li class="main-menu-dropdown-item">
+            <a class="main-menu-dropdown-link" href="https://twitter.com/ArtStationHQ" target="_blank">
+             <i class="fab fa-twitter fa-fw fa-pad-right">
+             </i>
+             <span>
+              Twitter
+             </span>
+            </a>
+           </li>
+           <li class="main-menu-dropdown-divider">
+           </li>
+           <li class="main-menu-dropdown-item">
+            <a class="main-menu-dropdown-link" href="/tos" target="_self">
+             <i class="far fa-gavel fa-fw fa-pad-right">
+             </i>
+             <span>
+              Terms of Service
+             </span>
+            </a>
+           </li>
+           <li class="main-menu-dropdown-item">
+            <a class="main-menu-dropdown-link" href="/privacy" target="_self">
+             <i class="far fa-lock fa-fw fa-pad-right">
+             </i>
+             <span>
+              Privacy Policy
+             </span>
+            </a>
+           </li>
+          </ul>
+         </div>
+        </li>
+        <li class="main-menu-item bs-d-sm-none dropdown dropdown-more hidden js-currency-dropdown">
+         <button class="main-menu-link dropdown-toggle" data-toggle="dropdownMenu" type="button">
+          <span class="js-current-currency">
+           USD, $
+          </span>
+          <i class="far fa-fw fa-chevron-down fa-pad-left animate animate-rotate">
+          </i>
+         </button>
+         <div class="dropdown-more-list">
+          <ul class="bs-list-unstyled">
+           <li class="main-menu-dropdown-item">
+            <button class="main-menu-dropdown-link" data-js-set-currency="usd" type="button">
+             <span class="far fa-dollar-sign fa-pad-right-x2">
+             </span>
+             <span>
+              USD
+             </span>
+            </button>
+           </li>
+           <li class="main-menu-dropdown-item">
+            <button class="main-menu-dropdown-link" data-js-set-currency="cad" type="button">
+             <span class="far fa-dollar-sign fa-pad-right-x2">
+             </span>
+             <span>
+              CAD
+             </span>
+            </button>
+           </li>
+           <li class="main-menu-dropdown-item">
+            <button class="main-menu-dropdown-link" data-js-set-currency="eur" type="button">
+             <span class="far fa-euro-sign fa-pad-right-x2">
+             </span>
+             <span>
+              EUR
+             </span>
+            </button>
+           </li>
+           <li class="main-menu-dropdown-item">
+            <button class="main-menu-dropdown-link" data-js-set-currency="gbp" type="button">
+             <span class="far fa-pound-sign fa-pad-right-x2">
+             </span>
+             <span>
+              GBP
+             </span>
+            </button>
+           </li>
+          </ul>
+         </div>
+        </li>
+       </ul>
+      </div>
+      <div class="main-menu-megadrop-back">
+      </div>
+     </nav>
+     <div class="bs-modal" id="login-modal">
+      <div class="bs-modal-dialog" data-close="modalBackdrop">
+       <div class="bs-modal-content">
+        <div class="bs-modal-header">
+         <button class="bs-close" data-close="modal" type="button">
+          <i class="far fa-times">
+          </i>
+         </button>
+         <h3 class="bs-modal-title">
+          Sign In
+         </h3>
+        </div>
+        <div class="bs-modal-body">
+         <form accept-charset="UTF-8" action="/api/v2/authentication/session" method="post">
+          <input name="form_type" type="hidden" value="modal"/>
+          <div class="bs-form-group">
+           <label class="control-label" for="user_email">
+            Your email
+           </label>
+           <input autofocus="true" class="bs-form-control" id="user_email" name="email" placeholder="email@example.com" type="email"/>
+          </div>
+          <div class="bs-form-group">
+           <label class="control-label" for="user_password">
+            Password
+           </label>
+           <input autocomplete="off" class="bs-form-control" id="user_password" name="password" placeholder="password" type="password"/>
+          </div>
+          <div class="bs-form-group">
+           <button class="bs-btn bs-btn-default" type="submit">
+            <i class="far fa-sign-in fa-pad-right">
+            </i>
+            Sign in
+           </button>
+          </div>
+          <div class="bs-row bs-row-flex">
+           <div class="bs-col-xs-6">
+            <a _self="_self" href="/users/password/new" target:="target:">
+             Forgot password?
+            </a>
+           </div>
+           <div class="bs-col-xs-6 bs-text-right">
+            <a _self="_self" href="/registration/signup" target:="target:">
+             Sign up
+            </a>
+           </div>
+          </div>
+          <div class="bs-hr">
+          </div>
+          <a _self="_self" class="bs-btn bs-btn-default" href="/users/auth/facebook/" target:="target:">
+           <i class="fab fa-facebook fa-pad-right">
+           </i>
+           Sign in with Facebook
+          </a>
+         </form>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="currency-select-modal bs-modal" id="currency-select-modal">
+      <div class="bs-modal-dialog">
+       <div class="bs-modal-content">
+        <div class="bs-modal-header">
+        </div>
+        <div class="bs-modal-body">
+         <div class="currency-select-modal-text js-currency js-eur">
+          It looks like you’re using ArtStation from Europe.
+          <br/>
+          Would you like to change the currency to Euros (€)?
+         </div>
+         <div class="currency-select-modal-text js-currency js-gbp">
+          It looks like you’re using ArtStation from Great Britain.
+          <br/>
+          Would you like to change the currency to Pounds (£)?
+         </div>
+         <div class="currency-select-modal-text js-currency js-cad">
+          It looks like you’re using ArtStation from Canada.
+          <br/>
+          Would you like to change the currency to CAD ($)?
+         </div>
+         <div class="bs-row bs-row-flex">
+          <div class="bs-col-xs-12 bs-col-sm-6 mb-xs-10">
+           <button class="bs-btn bs-btn-lg bs-btn-block bs-btn-default" data-js-set-currency="usd" type="button">
+            Keep USD $
+           </button>
+          </div>
+          <div class="bs-col-xs-12 bs-col-sm-6">
+           <button class="js-currency js-eur bs-btn bs-btn-lg bs-btn-block bs-btn-primary" data-js-set-currency="eur" type="button">
+            Change to EUR €
+           </button>
+           <button class="js-currency js-gbp bs-btn bs-btn-lg bs-btn-block bs-btn-primary" data-js-set-currency="gbp" type="button">
+            Change to GBP £
+           </button>
+           <button class="js-currency js-cad bs-btn bs-btn-lg bs-btn-block bs-btn-primary" data-js-set-currency="cad" type="button">
+            Change to CAD $
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <script async="" src="/assets/layout/signed_out_index.bundle.38d371db7be43b92c376.js">
+    </script>
+   </div>
+   <div class="wrapper-main">
+    {"seller_roles":["prints_seller"]}
+    <script>
+     // Add initial user to cache so that AngularJS does not have to request it
+app.run(['$http', '$cacheFactory', function ($http, $cacheFactory) {
+  var cache = $cacheFactory.get('$http');
+  cache.put('/users/aliyachen/quick.json', '{\"followed\":false,\"following_back\":false,\"blocked\":false,\"is_staff\":false,\"is_plus_member\":false,\"is_artist\":true,\"is_beta\":false,\"albums_with_community_projects\":[{\"id\":201671,\"title\":\"All\",\"user_id\":116873,\"created_at\":\"2017-07-26T07:32:50.829-05:00\",\"updated_at\":\"2017-07-26T07:32:50.829-05:00\",\"position\":-1,\"community_projects_count\":49,\"total_projects\":0,\"website_projects_count\":49,\"public_projects_count\":49,\"profile_visibility\":true,\"website_visibility\":null,\"album_type\":\"all_projects\"}],\"has_pro_permissions\":false,\"has_premium_permissions\":false,\"display_portfolio_as_albums\":false,\"portfolio_display_settings_albums\":[],\"portfolio_display_settings\":null,\"profile_default_album\":{\"id\":201671,\"album_type\":\"all_projects\"},\"id\":116873,\"large_avatar_url\":\"https://cdnb.artstation.com/p/users/avatars/000/116/873/large/d5f7cea8bef57112679eaadc026d293d.jpg?1574543854\",\"medium_avatar_url\":\"https://cdnb.artstation.com/p/users/avatars/000/116/873/medium/d5f7cea8bef57112679eaadc026d293d.jpg?1574543854\",\"default_cover_url\":\"https://cdn.artstation.com/static_media/placeholders/user/cover/default.jpg\",\"full_name\":\"Aliya Chen\",\"headline\":\"visdev @ Netflix Animation\",\"username\":\"aliyachen\",\"artstation_url\":\"https://aliyachen.artstation.com\",\"artstation_website\":\"aliyachen.artstation.com\",\"city\":\"California\",\"country\":\"United States of America\",\"permalink\":\"https://www.artstation.com/aliyachen\",\"cover_file_name\":null,\"cover_width\":null,\"cover_height\":null,\"availability\":\"available\",\"available_full_time\":false,\"available_contract\":false,\"available_freelance\":true,\"liked_projects_count\":458,\"followees_count\":319,\"followers_count\":27843,\"pro_member\":false,\"profile_artstation_website\":\"aliyachen.artstation.com\",\"profile_artstation_website_url\":\"https://aliyachen.artstation.com\",\"memorialized\":null,\"twitter_url\":\"https://twitter.com/chenalii\",\"facebook_url\":null,\"tumblr_url\":\"https://chenalii.tumblr.com\",\"deviantart_url\":null,\"linkedin_url\":\"https://www.linkedin.com/in/aliya-chen-b97960119\",\"instagram_url\":\"https://www.instagram.com/chenalii\",\"pinterest_url\":null,\"youtube_url\":null,\"vimeo_url\":null,\"behance_url\":null,\"steam_url\":null,\"sketchfab_url\":null,\"twitch_url\":null,\"imdb_url\":null,\"website_url\":\"http://www.aliyachen.com\",\"public_email\":null}');
+}])
+    </script>
+    <div ng-view="">
+    </div>
+   </div>
+  </div>
+  <div class="modal fade" id="login-modal">
+   <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-header">
+      <button aria-hidden="true" class="close" data-dismiss="modal" type="button">
+       <i class="far fa-times">
+       </i>
+      </button>
+      <h3 class="modal-title">
+       Sign In
+      </h3>
+     </div>
+     <div class="modal-body">
+      <form accept-charset="UTF-8" action="/api/v2/authentication/session" class="simple_form user-login-form" id="new_user" method="post">
+       <input name="utf8" type="hidden" value="✓"/>
+       <input name="authenticity_token" type="hidden" value="4qAoAF561PuuaJ+6vqORCjGkB/2PG2pD8CztcTsLgtl25EI9hwEWkZfpITFCVsVxwiPh2uGyKkm0yIiXo0CrHA=="/>
+       <input name="form_type" type="hidden" value="modal"/>
+       <div class="form-group email optional user_email">
+        <label class="control-label email optional" for="user_email">
+         Your email
+        </label>
+        <input autofocus="autofocus" class="form-control string email optional" id="user_email" name="email" placeholder="email@example.com" type="email"/>
+       </div>
+       <div class="form-group password optional user_password">
+        <label class="control-label password optional" for="user_password">
+         Password
+        </label>
+        <input autocomplete="off" class="form-control password optional" id="user_password" name="password" placeholder="password" type="password"/>
+       </div>
+       <div class="form-group">
+        <button class="btn btn-default" name="button" type="submit">
+         <i class="far fa-sign-in fa-pad-right">
+         </i>
+         Sign in
+        </button>
+       </div>
+       <div class="row row-flex">
+        <div class="col-xs-6">
+         <a href="/users/password/new" target="_self">
+          Forgot password?
+         </a>
+        </div>
+        <div class="col-xs-6 text-right">
+         <a href="/registration/signup" target="_self">
+          Sign up
+         </a>
+        </div>
+       </div>
+       <hr/>
+       <a class="btn btn-default" href="/users/auth/facebook" target="_self">
+        <i class="fab fa-facebook fa-pad-right">
+        </i>
+        Sign in with Facebook
+       </a>
+      </form>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="modal fade" id="announcement-modal">
+   <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-header">
+      <button aria-hidden="true" class="close" data-dismiss="modal" type="button">
+       <i class="far fa-times">
+       </i>
+      </button>
+      <h3 class="modal-title" data-title="">
+      </h3>
+     </div>
+     <div class="modal-body">
+      <a href="">
+       <img data-image="" src="" width="100%"/>
+      </a>
+      <div class="separator-sm">
+      </div>
+      <div data-body="">
+      </div>
+     </div>
+     <div class="modal-footer">
+      <a class="btn" data-action="open">
+      </a>
+      <a class="btn btn-default pull-right" data-action="close">
+       Close
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script id="hover-card" type="text/template">
+   <div class="hover-card" hidden=""><a class="hover-card-image" ng-href="{{ user.permalink }}"><img alt="{{ user.full_name }}" height="106" ng-if="user.small_cover_url" ng-src="{{ user.small_cover_url }}" width="323" /><img alt="{{ user.full_name }}" height="106" ng-if="user.default_cover_url" ng-src="{{ user.default_cover_url }}" width="323" /></a><a class="hover-card-avatar" ng-href="{{ user.permalink }}"><img class="img-circle img-responsive" height="60" ng-src="{{ user.medium_avatar_url }}" width="60" /></a><div class="hover-card-name"><a ng-bind-html="trustAsHtml(user.full_name)" ng-href="{{ user.permalink }}"></a><a class="pro-badge smaller" href="/subscribe" ng-if="user.pro_member" target="_top">Pro</a><a class="plus-badge smaller" href="/subscribe" ng-if="user.is_plus_member" target="_top">Plus</a><div class="staff-badge smaller" ng-if="user.is_staff">Staff</div></div><div class="hover-card-headline" ng-bind-html="trustAsHtml(user.headline)"></div><div class="hover-card-following d-flex align-items-center justify-content-center"><span class="hover-card-follows-you" ng-if="user.following_back">Follows you</span><follow-button small="true" user="user"></follow-button></div><div class="hover-card-grid" ng-show="projects.length != 0"><a class="{{ project.isEmptyProject ? &#39;hover-card-grid-item-empty&#39; : &#39;hover-card-grid-item&#39; }}" ng-href="{{ project.isEmptyProject ? &#39;&#39; : &#39;/artwork/&#39; + project.hash_id }}" ng-repeat="project in projects track by $index"><div class="far fa-image" ng-if="project.isEmptyProject"></div><img alt="" class="hover-card-grid-image" height="115" ng-class="{ &#39;img-blur&#39; : project.hide_as_adult }" ng-if="!project.isEmptyProject" ng-src="{{ ::project.cover.micro_square_image_url }}" width="115" /><div class="mature-content-label" ng-if="::project.hide_as_adult">Mature content</div></a></div></div>
+  </script>
+  <script>
+   window.flashes = {};
+  </script>
+  <script>
+   (function() {
+  $(function() {
+    return $.each(window.flashes, function(type, content) {
+      if (!content) {
+        return;
+      }
+      if (type === "error") {
+        return Flash.error(content);
+      } else {
+        return Flash.notice(content);
+      }
+    });
+  });
+
+}).call(this);
+  </script>
+  <script>
+   window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '249255215230397',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v3.1'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <script async="" defer="" src="//assets.pinterest.com/js/pinit.js" type="text/javascript">
+  </script>
+  <script>
+   app.run(['$http', '$cacheFactory', function ($http, $cacheFactory) {
+  var cache = $cacheFactory.get('$http');
+  cache.put('/mediums.json', '[{\"id\":9,\"name\":\"3D Printing\",\"created_at\":null,\"updated_at\":null,\"uri\":\"3d_printing\"},{\"id\":6,\"name\":\"Animation\",\"created_at\":null,\"updated_at\":null,\"uri\":\"animation\"},{\"id\":1,\"name\":\"Digital 2D\",\"created_at\":\"2013-12-17T15:10:43.000-06:00\",\"updated_at\":\"2014-03-25T06:43:37.000-05:00\",\"uri\":\"digital2d\"},{\"id\":2,\"name\":\"Digital 3D\",\"created_at\":\"2013-12-17T15:10:53.000-06:00\",\"updated_at\":\"2014-03-25T06:43:37.000-05:00\",\"uri\":\"digital3d\"},{\"id\":8,\"name\":\"Live Action CG/VFX\",\"created_at\":null,\"updated_at\":null,\"uri\":\"cg_vfx\"},{\"id\":14,\"name\":\"Mixed Media\",\"created_at\":null,\"updated_at\":null,\"uri\":\"mixedmedia\"},{\"id\":7,\"name\":\"Real-time\",\"created_at\":null,\"updated_at\":null,\"uri\":\"realtime\"},{\"id\":11,\"name\":\"Traditional Dry Media\",\"created_at\":null,\"updated_at\":null,\"uri\":\"dry_media\"},{\"id\":10,\"name\":\"Traditional Ink\",\"created_at\":null,\"updated_at\":null,\"uri\":\"ink\"},{\"id\":12,\"name\":\"Traditional Paint\",\"created_at\":null,\"updated_at\":null,\"uri\":\"paint\"},{\"id\":13,\"name\":\"Traditional Sculpture\",\"created_at\":null,\"updated_at\":null,\"uri\":\"sculpture\"}]');
+  cache.put('/categories.json', '[{\"id\":35,\"name\":\"Abstract\",\"created_at\":\"2020-04-17T11:55:13.828-05:00\",\"updated_at\":\"2020-04-17T12:41:37.473-05:00\",\"uri\":\"abstract\",\"state\":0},{\"id\":36,\"name\":\"Anatomy\",\"created_at\":\"2020-04-17T11:55:22.600-05:00\",\"updated_at\":\"2020-04-17T11:55:22.600-05:00\",\"uri\":\"anatomy\",\"state\":0},{\"id\":37,\"name\":\"Animals \\u0026 Wildlife\",\"created_at\":\"2020-04-17T11:55:30.586-05:00\",\"updated_at\":\"2020-04-17T11:55:42.711-05:00\",\"uri\":\"animals_wildlife\",\"state\":0},{\"id\":38,\"name\":\"Anime \\u0026 Manga\",\"created_at\":\"2020-04-17T11:55:57.914-05:00\",\"updated_at\":\"2020-04-17T11:55:57.914-05:00\",\"uri\":\"anime\",\"state\":0},{\"id\":13,\"name\":\"Architectural Concepts\",\"created_at\":\"2014-05-29T14:09:01.000-05:00\",\"updated_at\":\"2014-05-29T14:09:01.000-05:00\",\"uri\":\"architecture\",\"state\":0},{\"id\":30,\"name\":\"Architectural Visualization\",\"created_at\":\"2015-06-03T12:47:10.984-05:00\",\"updated_at\":\"2015-06-03T12:47:10.984-05:00\",\"uri\":\"archviz\",\"state\":0},{\"id\":69,\"name\":\"Automotive\",\"created_at\":\"2020-09-18T13:20:20.094-05:00\",\"updated_at\":\"2020-09-18T13:20:20.094-05:00\",\"uri\":\"automotive\",\"state\":0},{\"id\":39,\"name\":\"Board \\u0026 Card Game Art\",\"created_at\":\"2020-04-17T12:00:19.067-05:00\",\"updated_at\":\"2020-04-17T12:00:19.067-05:00\",\"uri\":\"board_games\",\"state\":0},{\"id\":40,\"name\":\"Book Illustration\",\"created_at\":\"2020-04-17T12:00:44.104-05:00\",\"updated_at\":\"2020-04-17T12:00:44.104-05:00\",\"uri\":\"book_illustration\",\"state\":0},{\"id\":67,\"name\":\"Character Animation\",\"created_at\":\"2020-04-21T12:24:22.093-05:00\",\"updated_at\":\"2020-04-21T12:24:22.093-05:00\",\"uri\":\"character_animation\",\"state\":0},{\"id\":65,\"name\":\"Character Design\",\"created_at\":\"2020-04-21T12:24:22.089-05:00\",\"updated_at\":\"2020-04-21T12:24:22.089-05:00\",\"uri\":\"character_design\",\"state\":0},{\"id\":66,\"name\":\"Character Modeling\",\"created_at\":\"2020-04-21T12:24:22.093-05:00\",\"updated_at\":\"2020-04-21T12:24:22.093-05:00\",\"uri\":\"character_modeling\",\"state\":0},{\"id\":34,\"name\":\"Children\'s Art\",\"created_at\":\"2018-12-06T10:29:13.378-06:00\",\"updated_at\":\"2018-12-06T10:29:13.378-06:00\",\"uri\":\"childrens\",\"state\":0},{\"id\":14,\"name\":\"Comic Art\",\"created_at\":\"2014-05-29T14:09:42.000-05:00\",\"updated_at\":\"2014-05-29T14:10:08.000-05:00\",\"uri\":\"comic_art\",\"state\":0},{\"id\":3,\"name\":\"Concept Art\",\"created_at\":\"2013-12-17T15:12:09.000-06:00\",\"updated_at\":\"2014-03-25T06:43:37.000-05:00\",\"uri\":\"concept_art\",\"state\":0},{\"id\":41,\"name\":\"Cover Art\",\"created_at\":\"2020-04-17T12:01:00.390-05:00\",\"updated_at\":\"2020-04-17T12:01:00.390-05:00\",\"uri\":\"cover_art\",\"state\":0},{\"id\":19,\"name\":\"Creatures\",\"created_at\":\"2014-06-12T07:08:09.000-05:00\",\"updated_at\":\"2014-06-12T07:08:09.000-05:00\",\"uri\":\"creatures\",\"state\":0},{\"id\":42,\"name\":\"Editorial Illustration\",\"created_at\":\"2020-04-17T12:01:09.641-05:00\",\"updated_at\":\"2020-04-17T12:01:09.641-05:00\",\"uri\":\"editorial_illustration\",\"state\":0},{\"id\":5,\"name\":\"Environmental Concept Art \\u0026 Design\",\"created_at\":\"2013-12-17T15:12:23.000-06:00\",\"updated_at\":\"2014-03-25T06:43:37.000-05:00\",\"uri\":\"environments\",\"state\":0},{\"id\":43,\"name\":\"Fan Art\",\"created_at\":\"2020-04-17T12:01:28.630-05:00\",\"updated_at\":\"2020-04-17T12:01:28.630-05:00\",\"uri\":\"fan_art\",\"state\":0},{\"id\":2,\"name\":\"Fantasy\",\"created_at\":\"2013-12-17T15:12:01.000-06:00\",\"updated_at\":\"2014-03-25T06:43:37.000-05:00\",\"uri\":\"fantasy\",\"state\":0},{\"id\":44,\"name\":\"Fashion \\u0026 Costume Design\",\"created_at\":\"2020-04-17T12:01:45.270-05:00\",\"updated_at\":\"2020-04-17T12:01:45.270-05:00\",\"uri\":\"fashion\",\"state\":0},{\"id\":7,\"name\":\"Game Art\",\"created_at\":\"2013-12-17T15:12:34.000-06:00\",\"updated_at\":\"2014-03-25T06:43:37.000-05:00\",\"uri\":\"game_art\",\"state\":0},{\"id\":46,\"name\":\"Gameplay \\u0026 Level Design\",\"created_at\":\"2020-04-17T12:03:03.636-05:00\",\"updated_at\":\"2020-04-17T12:03:03.636-05:00\",\"uri\":\"gameplay_leveldesign\",\"state\":0},{\"id\":45,\"name\":\"Games and Real-Time 3D Environment Art\",\"created_at\":\"2020-04-17T12:02:26.604-05:00\",\"updated_at\":\"2020-04-17T12:02:26.604-05:00\",\"uri\":\"games_environment\",\"state\":0},{\"id\":68,\"name\":\"Graphic Design\",\"created_at\":\"2020-05-06T08:42:17.442-05:00\",\"updated_at\":\"2020-05-06T08:42:17.442-05:00\",\"uri\":\"graphic_design\",\"state\":0},{\"id\":47,\"name\":\"Hard Surface\",\"created_at\":\"2020-04-17T12:03:17.658-05:00\",\"updated_at\":\"2020-04-17T12:03:17.658-05:00\",\"uri\":\"hard_surface\",\"state\":0},{\"id\":48,\"name\":\"Horror\",\"created_at\":\"2020-04-17T12:03:25.530-05:00\",\"updated_at\":\"2020-04-17T12:03:25.530-05:00\",\"uri\":\"horror\",\"state\":0},{\"id\":27,\"name\":\"Illustration\",\"created_at\":\"2015-06-03T12:46:27.160-05:00\",\"updated_at\":\"2015-06-03T12:46:27.160-05:00\",\"uri\":\"illustration\",\"state\":0},{\"id\":18,\"name\":\"Industrial \\u0026 Product Design\",\"created_at\":\"2014-06-12T07:07:48.000-05:00\",\"updated_at\":\"2014-06-12T07:07:48.000-05:00\",\"uri\":\"industrial_design\",\"state\":0},{\"id\":49,\"name\":\"Lighting\",\"created_at\":\"2020-04-17T12:03:43.105-05:00\",\"updated_at\":\"2020-04-17T12:03:43.105-05:00\",\"uri\":\"lighting\",\"state\":0},{\"id\":4,\"name\":\"Matte Painting\",\"created_at\":\"2013-12-17T15:12:18.000-06:00\",\"updated_at\":\"2014-03-25T06:43:37.000-05:00\",\"uri\":\"matte_painting\",\"state\":0},{\"id\":33,\"name\":\"Mecha\",\"created_at\":\"2015-06-03T12:57:22.559-05:00\",\"updated_at\":\"2015-06-03T12:57:22.559-05:00\",\"uri\":\"mech\",\"state\":0},{\"id\":50,\"name\":\"Mechanical Design\",\"created_at\":\"2020-04-17T12:03:52.669-05:00\",\"updated_at\":\"2020-04-17T12:03:52.669-05:00\",\"uri\":\"mechanical_design\",\"state\":0},{\"id\":29,\"name\":\"Motion Graphics\",\"created_at\":\"2015-06-03T12:46:54.149-05:00\",\"updated_at\":\"2015-06-03T12:46:54.149-05:00\",\"uri\":\"motiongraphics\",\"state\":0},{\"id\":51,\"name\":\"Photogrammetry \\u0026 3D Scanning\",\"created_at\":\"2020-04-17T12:04:08.680-05:00\",\"updated_at\":\"2020-04-17T12:04:08.680-05:00\",\"uri\":\"photogrammetry\",\"state\":0},{\"id\":52,\"name\":\"Pixel and Voxel Art\",\"created_at\":\"2020-04-17T12:04:29.219-05:00\",\"updated_at\":\"2020-04-17T12:04:29.219-05:00\",\"uri\":\"pixel_voxel\",\"state\":0},{\"id\":53,\"name\":\"Portraits\",\"created_at\":\"2020-04-17T12:04:39.687-05:00\",\"updated_at\":\"2020-04-17T12:04:39.687-05:00\",\"uri\":\"portraits\",\"state\":0},{\"id\":21,\"name\":\"Props\",\"created_at\":\"2015-06-03T12:36:04.927-05:00\",\"updated_at\":\"2015-06-03T12:36:04.927-05:00\",\"uri\":\"props\",\"state\":0},{\"id\":54,\"name\":\"Realism\",\"created_at\":\"2020-04-17T12:04:48.119-05:00\",\"updated_at\":\"2020-04-17T12:04:48.119-05:00\",\"uri\":\"realism\",\"state\":0},{\"id\":6,\"name\":\"Science Fiction\",\"created_at\":\"2013-12-17T15:12:29.000-06:00\",\"updated_at\":\"2014-03-25T06:43:37.000-05:00\",\"uri\":\"science_fiction\",\"state\":0},{\"id\":55,\"name\":\"Scientific Illustration \\u0026 Visualization\",\"created_at\":\"2020-04-17T12:05:22.964-05:00\",\"updated_at\":\"2020-04-17T12:05:22.964-05:00\",\"uri\":\"scientific_illustration\",\"state\":0},{\"id\":56,\"name\":\"Scripts \\u0026 Tools\",\"created_at\":\"2020-04-17T12:05:47.885-05:00\",\"updated_at\":\"2020-04-17T12:05:47.885-05:00\",\"uri\":\"scripts_tools\",\"state\":0},{\"id\":57,\"name\":\"Sketches\",\"created_at\":\"2020-04-17T12:05:55.171-05:00\",\"updated_at\":\"2020-04-17T12:05:55.171-05:00\",\"uri\":\"sketches\",\"state\":0},{\"id\":16,\"name\":\"Still Life\",\"created_at\":\"2014-05-29T14:19:54.000-05:00\",\"updated_at\":\"2014-05-29T14:20:15.000-05:00\",\"uri\":\"still_life\",\"state\":0},{\"id\":24,\"name\":\"Storyboards\",\"created_at\":\"2015-06-03T12:41:24.074-05:00\",\"updated_at\":\"2015-06-03T12:41:24.074-05:00\",\"uri\":\"storyboards\",\"state\":0},{\"id\":58,\"name\":\"Stylized\",\"created_at\":\"2020-04-17T12:06:02.887-05:00\",\"updated_at\":\"2020-04-17T12:06:02.887-05:00\",\"uri\":\"stylized\",\"state\":0},{\"id\":59,\"name\":\"Technical Art\",\"created_at\":\"2020-04-17T12:06:11.861-05:00\",\"updated_at\":\"2020-04-17T12:06:11.861-05:00\",\"uri\":\"technical_art\",\"state\":0},{\"id\":25,\"name\":\"Textures \\u0026 Materials\",\"created_at\":\"2015-06-03T12:41:47.051-05:00\",\"updated_at\":\"2015-06-03T12:51:35.124-05:00\",\"uri\":\"texturesmaterials\",\"state\":0},{\"id\":60,\"name\":\"Toys \\u0026 Collectibles\",\"created_at\":\"2020-04-17T12:06:23.811-05:00\",\"updated_at\":\"2020-04-17T12:06:23.811-05:00\",\"uri\":\"toys\",\"state\":0},{\"id\":26,\"name\":\"Tutorials\",\"created_at\":\"2015-06-03T12:42:06.808-05:00\",\"updated_at\":\"2015-06-03T12:42:06.808-05:00\",\"uri\":\"tutorial\",\"state\":0},{\"id\":23,\"name\":\"User Interface (UI) Art\",\"created_at\":\"2015-06-03T12:41:08.411-05:00\",\"updated_at\":\"2015-06-03T12:51:45.823-05:00\",\"uri\":\"ui\",\"state\":0},{\"id\":64,\"name\":\"VFX for Film, TV \\u0026 Animation\",\"created_at\":\"2020-04-20T09:21:41.202-05:00\",\"updated_at\":\"2020-04-20T09:21:41.202-05:00\",\"uri\":\"film_vfx\",\"state\":0},{\"id\":63,\"name\":\"VFX for Real-Time \\u0026 Games\",\"created_at\":\"2020-04-20T09:21:41.198-05:00\",\"updated_at\":\"2020-04-20T09:21:41.198-05:00\",\"uri\":\"games_vfx\",\"state\":0},{\"id\":11,\"name\":\"Vehicles\",\"created_at\":\"2013-12-17T15:13:00.000-06:00\",\"updated_at\":\"2014-05-29T14:27:14.000-05:00\",\"uri\":\"transport\",\"state\":0},{\"id\":32,\"name\":\"Virtual and Augmented Reality\",\"created_at\":\"2015-06-03T12:47:27.606-05:00\",\"updated_at\":\"2015-06-03T12:47:27.606-05:00\",\"uri\":\"vr\",\"state\":0},{\"id\":61,\"name\":\"Visual Development\",\"created_at\":\"2020-04-17T12:06:34.687-05:00\",\"updated_at\":\"2020-04-17T12:06:34.687-05:00\",\"uri\":\"visual_development\",\"state\":0},{\"id\":22,\"name\":\"Weapons\",\"created_at\":\"2015-06-03T12:37:05.185-05:00\",\"updated_at\":\"2015-06-03T12:37:05.185-05:00\",\"uri\":\"weapons\",\"state\":0},{\"id\":62,\"name\":\"Web and App Design\",\"created_at\":\"2020-04-17T12:06:48.096-05:00\",\"updated_at\":\"2020-04-17T12:06:48.096-05:00\",\"uri\":\"web_design\",\"state\":0}]');
+}])
+  </script>
+  <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+  </script>
+  <script data-cf-beacon='{"rayId":"60d7d1ed6f8e14e1","version":"2020.12.2","si":10}' defer="" src="https://static.cloudflareinsights.com/beacon.min.js">
+  </script>
+ </body>
+</html>
