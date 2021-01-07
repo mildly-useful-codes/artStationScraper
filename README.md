@@ -14,6 +14,8 @@
     - Selenium
     - tqdm
     - urllib
+- Do a 
+`pip install selenium, tqdm, bs4, urllib`
 
 ## FAQ
 ### Why does it open a browser?
